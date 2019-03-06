@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700|Special+Elite');
+
+h1{
+}
+
+.flex-container {
+  display: flex;
+  /* flex-flow: row no-wrap; */
+  justify-content: space-around;
+  width: 100%;
+  flex-align: center;
+  margin: 0 auto;
+  background-color: rgba(111, 160, 210, 1);
+}
+.flex-box {
+  padding: 10px;
+  font-family: 'Montserrat Alternates';
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* Container holding the image and the text */
+.picture-container {
+  position: relative;
+  text-align: center;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Special Elite';
+  color: Orange;
+  font-size: 200px;
+}
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-family: 'Special Elite';
+  color: white;
+  font-size: 50px;
+}
