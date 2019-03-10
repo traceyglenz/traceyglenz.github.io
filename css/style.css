@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,500,600,700|Special+Elite');
 
 :root {
-  --primary-color: rgb(4,127,184);
+  --primary-color1: rgb(4,127,184);
   --primary-color2: rgb(241,157,57);
   --primary-color3: rgb(243,196,101);
   --primary-text-color: grey;
@@ -77,6 +77,10 @@ a:hover{
     text-align: center;
     color: var(--secondary-text-color)
   }
+  main article p {
+    padding: 0 20px;
+    font-family: sans-serif;
+  }
   .articlehead1{
     background-color: var(--primary-color1);
   }
@@ -86,11 +90,9 @@ a:hover{
   .articlehead3{
     background-color: var(--primary-color3);
   }
-  main article p {
-    padding: 0 20px;
-    font-family: sans-serif;
+  .articlehead4{
+    background-color: var(--secondary-color1);
   }
-
 }
 .clearfix::after {
   content: "";
