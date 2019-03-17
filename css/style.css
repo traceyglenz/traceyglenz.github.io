@@ -11,6 +11,11 @@
   --secondary-color2: rgb(82,132,184);
   --secondary-color3: rgb(67,74,76);
 }
+/* centering the page */
+#page-wrapper{
+  width: 800px;
+  margin: 0 auto;
+}
 
 body{
   font-family: 'Special Elite', serif;
@@ -31,6 +36,7 @@ body{
   font-size: 20px;
 }
 a {
+  font-family: 'Special Elite', serif;
   text-decoration: none;
   font-weight: bold;
 }
