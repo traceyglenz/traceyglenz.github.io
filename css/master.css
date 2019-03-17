@@ -9,8 +9,8 @@
     width: 75%;
     height:0;
     padding-bottom: 75%;
-    background: #c00000;
-    -moz-border-radius: 50%;
+    background: linear-gradient(rgb(185,212,73),rgb(4,127,184)) ;
+    -moz-border-radius:50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }

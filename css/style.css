@@ -12,7 +12,7 @@
   --secondary-color3: rgb(67,74,76);
 }
 /* centering the page */
-#page-wrapper{
+#wrapper{
   width: 800px;
   margin: 0 auto;
 }
@@ -38,6 +38,7 @@ body{
 a {
   font-family: 'Special Elite', serif;
   text-decoration: none;
+  color: var(--primary-color3);
   font-weight: bold;
 }
 a:hover{
