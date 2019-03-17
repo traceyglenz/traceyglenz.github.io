@@ -95,15 +95,12 @@ a:hover{
   }
   .articlehead2{
     background-color: var(--primary-color2);
-    padding: 5px 0 0 5px;
   }
   .articlehead3{
     background-color: var(--primary-color3);
-    padding: 5px 0 0 5px;
   }
   .articlehead4{
     background-color: var(--secondary-color1);
-    padding: 5px 0 0 5px;
   }
 }
 .clearfix::after {
