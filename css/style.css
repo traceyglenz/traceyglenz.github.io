@@ -42,7 +42,7 @@ a {
   font-weight: bold;
 }
 a:hover{
-  background-color: var(--hover-text-color);
+  background-color: white;
 }
 
 
@@ -107,4 +107,60 @@ a:hover{
   content: "";
   clear: both;
   display: table;
+}
+
+/* artilce button formatting */
+.button {
+  background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 20px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid  var(--primary-color1);
+}
+.button1:hover {
+  background-color: var(--primary-color1);
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid  var(--primary-color2);
+}
+.button2:hover {
+  background-color: var(--primary-color2);
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid  var(--primary-color3);
+}
+.button3:hover {
+  background-color: var(--primary-color3);
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid  var(--secondary-color1);
+}
+.button4:hover {
+  background-color: var(--secondary-color1);
+  color: white;
 }
